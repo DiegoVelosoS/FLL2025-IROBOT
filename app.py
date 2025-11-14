@@ -6,7 +6,7 @@ import io
 # --- Configuração da Página ---
 st.set_page_config(page_title="Processador Geométrico de Imagens", layout="wide")
 
-st.title("🎨 Transformador Geométrico de Imagens")
+st.title("Projeto de Inovação: Vendo o invisível")
 st.write("Faça upload de uma imagem para detectar cores e desenhar formas geométricas.")
 
 # --- Barra Lateral (Parâmetros) ---
@@ -163,4 +163,5 @@ if uploaded_file is not None:
                 data=byte_im,
                 file_name="geometric_art.png",
                 mime="image/png"
+
             )
